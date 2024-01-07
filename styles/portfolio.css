@@ -1,73 +1,56 @@
-/* Common share style */
+/* Shared style */
 
-body{
-
-/* Have to include */
-
-
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-
-.text-primary{
-
-
-color:#FD6E0A;
-
-
+.shared-color {
+  background: #fd6e0a;
 }
 
-nav>ul{
-
-
-display:flex;
-
-
+.btn-primary {
+  border:none;
+  background: #fd6e0a;
+  color: #fff;
+  font-weight: 700;
+  padding: 14px 20px;
 }
 
-nav li{
+/* nav related work */
 
-list-style: none;
-margin-right:50px;
+nav {
+  display: flex;
+  justify-content: space-between;
 
-
+  align-items: center;
 }
 
-.btn-primary{
+.title {
+  /* MARY */
+  color: #181818;
 
+  font-size: 45px;
+  font-style: normal;
 
-border-radius: 5px;
-background: #FD6E0A;
-border:none;
-color:white;
-font-size: 20px;
-font-weight: 700px;
-padding:15px 35px;
+  line-height: normal;
+}
 
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+
+  margin-right: 50px;
 }
 
 nav a {
-
-
-    text-decoration: none;
-    color:#474747;
-} 
-
-/* Nav related styles */
-
-nav{
-
-
-display:flex;
-
-
+  text-decoration: none;
+  color: #474747;
 }
 
-.nav-title{
-
-color:#181818;
-font-size: 45px;
-font-weight: 800;
-
-
-
+.diff-r {
+  color: #fd6e0a;
 }
