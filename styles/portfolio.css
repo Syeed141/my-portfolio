@@ -1,0 +1,73 @@
+/* Common share style */
+
+body{
+
+/* Have to include */
+
+
+}
+
+
+.text-primary{
+
+
+color:#FD6E0A;
+
+
+}
+
+nav>ul{
+
+
+display:flex;
+
+
+}
+
+nav li{
+
+list-style: none;
+margin-right:50px;
+
+
+}
+
+.btn-primary{
+
+
+border-radius: 5px;
+background: #FD6E0A;
+border:none;
+color:white;
+font-size: 20px;
+font-weight: 700px;
+padding:15px 35px;
+
+}
+
+nav a {
+
+
+    text-decoration: none;
+    color:#474747;
+} 
+
+/* Nav related styles */
+
+nav{
+
+
+display:flex;
+
+
+}
+
+.nav-title{
+
+color:#181818;
+font-size: 45px;
+font-weight: 800;
+
+
+
+}
